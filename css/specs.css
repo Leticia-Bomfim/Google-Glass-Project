@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+
+section#full{
+    width: 100%;
+    margin: auto;    
+}
+iframe#frame-spec{
+    width: 380px;
+    height: 280px;
+    float:right;    
+}
+
+
+

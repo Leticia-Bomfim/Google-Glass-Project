@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/media.css" />
+    <title>Document</title>
+</head>
+<script lang="javascript" src="javascript/funcoes.js"></script>
+<body>
+    <div id="interface">
+        <header id="cabeçalho">
+            <hgroup>
+                <h1>Google Glass </h1>
+                <h2> revolução do Google está chegando </h2>
+            </hgroup>
+
+            <figure>
+                <img id="icone" alt="oculos preto" onmouseover="muda(1)" onclick="muda(2)"
+                    src="imagens/multimidia.png" />
+            </figure>
+
+            <nav id="menu">
+
+                <ul type="disc">
+                    <li onmouseover= "mudaFoto('imagens/home.png')" onmouseout="mudaFoto('imagens/multimidia.png')" ><a href="index.html"target="_blank">Home</a></li>
+                    <li onmouseover="mudaFoto('imagens/especificacoes.png')" onmouseout="mudaFoto('imagens/multimidia.png')" ><a href="especificacoes.html">Especificações</a></li>
+                    <li onmouseover="mudaFoto('imagens/fotos.png')"onmouseout="mudaFoto('imagens/multimidia.png')" ><a href="fotos.html" target="_blank">Fotos</a></li>
+                    <li onmouseover="mudaFoto('imagens/multimidia.png')" onmouseout="mudaFoto('imagens/multimidia.png')" ><a href="multimidia.html">Multimídia</a></li>
+                    <li onmouseover="mudaFoto('imagens/contato.png')" onmouseout="mudaFoto('imagens/multimidia.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+                  </ul>
+                </nav>
+            </nav>
+
+        </header>
+        <section>
+            <article id="noticia-principal">
+                <header id="cabecalho-artigo">
+                    <hgroup>
+                        <h3>
+                            Tecnologia > &nbsp; &nbsp; Multimídia
+                        </h3>
+                        <h1>
+                            Sons e videos
+                        </h1>
+                        <h2>
+                            por Gustavo Guanabara
+                        </h2>
+                        <h3 class="direita">
+                            Atualizado em 23/Abril/2013
+                        </h3>
+                    </hgroup>
+                </header>
+                <div id="tv-radio">
+                    <audio id="musica" controls>
+                        <source src="_media/2009-lovers-carvings-bibio.mp3" type="audio/mp3"/>
+                        <source src="_media/2009-lovers-carvings-bibio.aac" type="audio/x-acc"/>
+                        <source src="_media/2009-lovers-carvings-bibio.ogg" type="audio/ogg"/>
+                        Desculpe, mas não foi possivel carregar o audio.
+                    </audio>
+                    <video id="filme" controls poster="imagens/video-mini03.jpg">
+                        <source src="_media/getting-started.mp4" type="video/mp4"/>
+                        <source src="_media/getting-started.ogg" type="video/ogg"/>
+                        <source src="_media/getting-started.webm" type="video/webm"/>
+                        Desculpe, mas não foi possivel carregar o vídeo.
+                    </video>
+
+
+                </div>
+            </article>
+        </section>
+        
+        <footer id="rodape">
+            <p>
+                Copyright&copy; 2013 - by Gustavo Guanabara</br>
+                <a href="https://www.facebook.com/search/top/?q=curso%20em%20video" target="blank">Facebook</a> | <a
+                    href="https://www.instagram.com/cursoemvideo/" target="blank">Instagram</a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
