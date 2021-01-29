@@ -1,2 +1,6 @@
 # Google-Glass-Project
-Site criado nas aulas de HTML 5 do Professor Gustavo Guanabara
+Site criado nas aulas de HTML 5 do Professor Gustavo Guanabara:
+
+O site não é responsivo;
+
+algumas tags são obsoletas;
